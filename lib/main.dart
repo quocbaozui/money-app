@@ -13,7 +13,7 @@ import 'screens/chat_interface/chat_interface.dart'; // nhớ file này có Chat
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await dotenv.load(fileName: "lib/.env");
+  // await dotenv.load(fileName: "lib/.env");
 
   // Guard initialization: only initialize Firebase if no apps are initialized yet.
   // This avoids the [core/duplicate-app] error during hot restart/hot reload.

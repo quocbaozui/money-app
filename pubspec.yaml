@@ -50,6 +50,7 @@ dependencies:
   flutter_dotenv: ^6.0.0
   sqlite3_flutter_libs: ^0.5.40
   collection: ^1.19.1
+  flutter_launcher_icons: "^0.13.1"
 
 dev_dependencies:
   flutter_test:
@@ -80,7 +81,7 @@ flutter:
       - assets/images/income.png
       - assets/images/expenses.png
       - assets/database.sqlite
-      - lib/.env
+#      - lib/.env
       - assets/images/
 #      - assets/data/
 
@@ -109,3 +110,10 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+flutter_launcher_icons:
+  android: true
+  ios: true
+  #image_path: "assets/icon/android_app_icon.png" # Path to your icon image
+  # Optional: specify different paths for Android and iOS
+  image_path_android: "assets/images/android_app_icon.png"
+  image_path_ios: "assets/images/ios_app_icon.png"
